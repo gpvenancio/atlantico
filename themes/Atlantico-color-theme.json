@@ -36,6 +36,18 @@
 
     "statusBar.debuggingBackground": "#2A2D37",
 
+    "statusBar.noFolderBackground": "#232530",
+    "statusBar.noFolderForeground": "#CDD6E3",
+
+    "statusBarItem.remoteBackground": "#232530",
+    "statusBarItem.remoteForeground": "#CDD6E3",
+
+    "statusBarItem.prominentBackground": "#2A2D37",
+    "statusBarItem.prominentForeground": "#CDD6E3",
+
+    "statusBar.debuggingForeground": "#CDD6E3",
+    "statusBar.debuggingBorder": "#00000000",
+
     "scrollbarSlider.background": "#3A3F4B55",
     "scrollbarSlider.hoverBackground": "#4A506055",
     "scrollbarSlider.activeBackground": "#5A607055",
