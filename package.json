@@ -1,0 +1,21 @@
+{
+  "name": "atlantico",
+  "displayName": "Atlantico",
+  "description": "A premium low-noise dark theme for deep focus and long coding sessions.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.118.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Atlantico",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Atlantico-color-theme.json"
+      }
+    ]
+  }
+}
