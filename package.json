@@ -3,6 +3,11 @@
   "displayName": "Atlantico",
   "description": "A premium low-noise dark theme for deep focus and long coding sessions.",
   "version": "0.0.1",
+  "publisher": "gvenancio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gvenancio/atlantico.git"
+  },
   "engines": {
     "vscode": "^1.118.0"
   },
