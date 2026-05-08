@@ -2,36 +2,45 @@
 
 > A premium dark theme for Visual Studio Code — crafted for long coding sessions, reduced eye strain, and visual clarity across a wide range of languages.
 
-![Version](https://img.shields.io/badge/version-1.0.0-729BB3?style=flat-square)
-![VS Code](https://img.shields.io/badge/VS%20Code-^1.70.0-232530?style=flat-square&logo=visual-studio-code&logoColor=729BB3)
-![License](https://img.shields.io/badge/license-MIT-BE7878?style=flat-square)
+<p align="left">
+  <img src="https://img.shields.io/badge/version-1.0.0-729BB3?style=flat-square">
+  <img src="https://img.shields.io/badge/VS%20Code-^1.70.0-232530?style=flat-square&logo=visual-studio-code&logoColor=729BB3">
+  <img src="https://img.shields.io/badge/license-MIT-BE7878?style=flat-square">
+</p>
+
+---
+
+## 🌌 Features
+
+- Soft ocean-inspired palette
+- Reduced eye strain for long coding sessions
+- Unified editor + terminal ANSI colours
+- Carefully tuned semantic highlighting
+- Wide language support
+- Low-noise UI design
 
 ---
 
 ## 📸 Screenshots
 
-**JavaScript / TypeScript**
-
-![JavaScript](./screenshots/screenshot-js.png)
-
-**Python**
-
-![Python](./screenshots/screenshot-python.png)
-
-**Rust**
-
-![Rust](./screenshots/screenshot-rust.png)
-
-**CSS / HTML**
-
-![CSS](./screenshots/screenshot-css.png)
-
-**Terminal**
-
-![Terminal](./screenshots/screenshot-terminal.png)
-
-> Place your screenshots inside a `screenshots/` folder at the root of the repository.  
-> On Fedora/GNOME, use `gnome-screenshot -f screenshots/screenshot-js.png` or `Print Screen` with VS Code in fullscreen.
+<table>
+  <tr>
+    <td><img src="./screenshots/javascript.png" width="100%"></td>
+    <td><img src="./screenshots/typescript.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/python.png" width="100%"></td>
+    <td><img src="./screenshots/rust.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/sql.png" width="100%"></td>
+    <td><img src="./screenshots/scss.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/html.png" width="100%"></td>
+    <td><img src="./screenshots/terminal.png" width="100%"></td>
+  </tr>
+</table>
 
 ---
 
@@ -113,7 +122,7 @@ Atlantico includes fine-tuned token rules for a wide range of languages:
 
 ## 📦 Installation
 
-### Via VS Code Marketplace _(coming soon)_
+### Via VS Code Marketplace
 
 1. Open VS Code
 2. Go to **Extensions** (`Ctrl+Shift+X`)
@@ -141,7 +150,7 @@ For the best experience alongside Atlantico:
 {
   "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
   "editor.fontSize": 14,
-  "editor.lineHeight": 1.7,
+  "editor.lineHeight": 1.5,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "smooth",
   "editor.renderLineHighlight": "line",
@@ -173,5 +182,5 @@ MIT © [Gonçalo Venâncio](https://github.com/gvenancio)
 ---
 
 <div align="center">
-  <sub>Built with 🌊 for developers who live in the deep end.</sub>
+  <sub>Designed for clarity, comfort, and long coding sessions.</sub>
 </div>
