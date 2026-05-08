@@ -1,5 +1,7 @@
 {
   "name": "Atlantico",
+  "semanticHighlighting": true,
+
   "colors": {
     "editor.background": "#232530",
     "editor.foreground": "#CDD6E3",
