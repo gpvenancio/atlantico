@@ -3,6 +3,7 @@
   "displayName": "Atlantico",
   "description": "A premium low-noise dark theme for deep focus and long coding sessions.",
   "version": "1.0.0",
+  "icon": "images/icon.png",
   "license": "MIT",
   "publisher": "gvenancio",
   "repository": {
