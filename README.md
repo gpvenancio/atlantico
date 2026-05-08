@@ -181,6 +181,20 @@ MIT © [Gonçalo Venâncio](https://github.com/gvenancio)
 
 ---
 
+## ☕ Support Atlantico
+
+If Atlantico improves your daily coding experience, you can support the project here:
+
+[Buy Me a Coffee](https://buymeacoffee.com/gvenancio)
+
+---
+
+<div align="center">
+  <sub>Atlantico was crafted through a combination of human design decisions and AI-assisted iteration.</sub>
+</div>
+
+---
+
 <div align="center">
   <sub>Designed for clarity, comfort, and long coding sessions.</sub>
 </div>
