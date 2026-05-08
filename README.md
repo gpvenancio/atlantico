@@ -3,7 +3,7 @@
 > A premium dark theme for Visual Studio Code — crafted for long coding sessions, reduced eye strain, and visual clarity across a wide range of languages.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/version-1.0.0-729BB3?style=flat-square">
+  <img src="https://img.shields.io/visual-studio-marketplace/v/gvenancio.atlantico?style=flat-square&color=729BB3">
   <img src="https://img.shields.io/badge/VS%20Code-^1.70.0-232530?style=flat-square&logo=visual-studio-code&logoColor=729BB3">
   <img src="https://img.shields.io/badge/license-MIT-BE7878?style=flat-square">
 </p>
