@@ -16,6 +16,20 @@
     "editorIndentGuide.background1": "#2D313D",
     "editorIndentGuide.activeBackground1": "#434A5B",
 
+    "editorBracketHighlight.foreground1": "#74839A",
+    "editorBracketHighlight.foreground2": "#74839A",
+    "editorBracketHighlight.foreground3": "#74839A",
+    "editorBracketHighlight.foreground4": "#74839A",
+    "editorBracketHighlight.foreground5": "#74839A",
+    "editorBracketHighlight.foreground6": "#74839A",
+
+    "editorBracketPairGuide.activeBackground1": "#434A5B",
+    "editorBracketPairGuide.activeBackground2": "#434A5B",
+    "editorBracketPairGuide.activeBackground3": "#434A5B",
+    "editorBracketPairGuide.activeBackground4": "#434A5B",
+    "editorBracketPairGuide.activeBackground5": "#434A5B",
+    "editorBracketPairGuide.activeBackground6": "#434A5B",
+
     "sideBar.background": "#21232D",
     "sideBar.border": "#00000000",
 
@@ -121,7 +135,6 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
-        "punctuation",
         "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
@@ -132,6 +145,25 @@
         "keyword.other.template",
         "keyword.other.substitution"
       ],
+      "settings": {
+        "foreground": "#8AA7B1"
+      }
+    },
+    {
+      "name": "Brackets",
+      "scope": [
+        "punctuation.section",
+        "punctuation.definition.parameters",
+        "meta.brace",
+        "meta.group.braces"
+      ],
+      "settings": {
+        "foreground": "#687385"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": ["punctuation.separator", "punctuation.terminator"],
       "settings": {
         "foreground": "#8AA7B1"
       }
