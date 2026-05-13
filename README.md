@@ -68,20 +68,19 @@ Whether you code for 2 hours or 10, Atlantico is designed to stay comfortable.
 
 ### Syntax
 
-| Role                               | Hex       | Preview                                           |
-| ---------------------------------- | --------- | ------------------------------------------------- |
-| Keywords / Tags / Storage          | `#BE7878` | ![](https://placehold.co/14x14/BE7878/BE7878.png) |
-| Functions / Decorators / Built-ins | `#729BB3` | ![](https://placehold.co/14x14/729BB3/729BB3.png) |
-| Strings / Symbols                  | `#C4A46B` | ![](https://placehold.co/14x14/C4A46B/C4A46B.png) |
-| Classes / Types / Interfaces       | `#B8A58A` | ![](https://placehold.co/14x14/B8A58A/B8A58A.png) |
-| Numbers / Constants / Parameters   | `#8487D6` | ![](https://placehold.co/14x14/8487D6/8487D6.png) |
-| Operators / Light Punctuation      | `#8AA7B1` | ![](https://placehold.co/14x14/8AA7B1/8AA7B1.png) |
-| Structural Brackets / Delimiters   | `#74839A` | ![](https://placehold.co/14x14/74839A/74839A.png) |
-| Entity Types / CSS Properties      | `#A7B4C2` | ![](https://placehold.co/14x14/A7B4C2/A7B4C2.png) |
-| Annotations / Units / Attributes   | `#C29D7C` | ![](https://placehold.co/14x14/C29D7C/C29D7C.png) |
-| Inserted / Heredoc / Green accents | `#86A98D` | ![](https://placehold.co/14x14/86A98D/86A98D.png) |
-| Comments                           | `#5B6273` | ![](https://placehold.co/14x14/5B6273/5B6273.png) |
-| Errors / Invalid                   | `#BE7878` | ![](https://placehold.co/14x14/BE7878/BE7878.png) |
+| Role                                                   | Hex       | Preview                                           |
+| ------------------------------------------------------ | --------- | ------------------------------------------------- |
+| Keywords / Control flow / Storage / Errors             | `#BE7878` | ![](https://placehold.co/14x14/BE7878/BE7878.png) |
+| Functions / Decorators / Built-ins                     | `#729BB3` | ![](https://placehold.co/14x14/729BB3/729BB3.png) |
+| Strings / Symbols                                      | `#C4A46B` | ![](https://placehold.co/14x14/C4A46B/C4A46B.png) |
+| Classes / Types / Interfaces                           | `#B8A58A` | ![](https://placehold.co/14x14/B8A58A/B8A58A.png) |
+| Numbers / Constants / Parameters                       | `#8487D6` | ![](https://placehold.co/14x14/8487D6/8487D6.png) |
+| Operators / Punctuation / CSS at-rules / Structural    | `#8AA7B1` | ![](https://placehold.co/14x14/8AA7B1/8AA7B1.png) |
+| Structural Brackets / Delimiters                       | `#74839A` | ![](https://placehold.co/14x14/74839A/74839A.png) |
+| Entity Types / CSS Properties / Tags / `this` / `self` | `#A7B4C2` | ![](https://placehold.co/14x14/A7B4C2/A7B4C2.png) |
+| Annotations / Units / Attributes                       | `#C29D7C` | ![](https://placehold.co/14x14/C29D7C/C29D7C.png) |
+| Inserted / Heredoc / Green accents                     | `#86A98D` | ![](https://placehold.co/14x14/86A98D/86A98D.png) |
+| Comments                                               | `#5B6273` | ![](https://placehold.co/14x14/5B6273/5B6273.png) |
 
 ### Terminal
 

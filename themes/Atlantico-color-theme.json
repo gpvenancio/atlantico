@@ -94,6 +94,27 @@
     "terminal.ansiBrightCyan": "#8EB8C7",
     "terminal.ansiBrightWhite": "#E6EDF7"
   },
+  "semanticTokenColors": {
+    "variable": "#CDD6E3",
+    "parameter": "#C29D7C",
+    "property": "#8EB8C7",
+    "function": "#729BB3",
+    "method": "#729BB3",
+    "class": "#B8A58A",
+    "type": "#B8A58A",
+    "keyword": "#BE7878",
+    "string": "#C4A46B",
+    "number": "#8487D6",
+
+    "variable.readonly": "#A7B4C2",
+    "variable.defaultLibrary": "#A7B4C2",
+
+    "property.readonly": "#8EB8C7",
+
+    "function.defaultLibrary": "#729BB3",
+
+    "type.defaultLibrary": "#A7B4C2"
+  },
   "tokenColors": [
     {
       "name": "Comment",
@@ -104,7 +125,11 @@
     },
     {
       "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": [
+        "variable",
+        "variable.other.readwrite",
+        "string constant.other.placeholder"
+      ],
       "settings": {
         "foreground": "#CDD6E3"
       }
@@ -176,7 +201,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -190,13 +215,6 @@
       ],
       "settings": {
         "foreground": "#729BB3"
-      }
-    },
-    {
-      "name": "Block Level Variables",
-      "scope": ["meta.block variable.other"],
-      "settings": {
-        "foreground": "#BE7878"
       }
     },
     {
@@ -275,21 +293,10 @@
       }
     },
     {
-      "name": "Sub-methods",
-      "scope": [
-        "entity.name.module.js",
-        "variable.import.parameter.js",
-        "variable.other.class.js"
-      ],
-      "settings": {
-        "foreground": "#BE7878"
-      }
-    },
-    {
       "name": "Language methods",
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -313,7 +320,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#B8A58A"
       }
     },
     {
@@ -669,7 +676,7 @@
         "variable.language.special.cls.python"
       ],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -731,7 +738,7 @@
       "name": "Ruby - Self",
       "scope": ["variable.language.self.ruby"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -798,7 +805,7 @@
       "name": "PHP - This",
       "scope": ["variable.language.this.php"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -888,7 +895,7 @@
       "name": "Java - This",
       "scope": ["variable.language.this.java"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -896,6 +903,17 @@
       "scope": ["meta.cast.java"],
       "settings": {
         "foreground": "#8AA7B1"
+      }
+    },
+    {
+      "name": "JavaScript / TypeScript Properties",
+      "scope": [
+        "variable.other.property.js",
+        "variable.other.property.ts",
+        "variable.other.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#8EB8C7"
       }
     },
     {
@@ -1013,7 +1031,7 @@
       "name": "C# - This",
       "scope": ["keyword.other.this.cs"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -1111,7 +1129,7 @@
       "name": "Rust - Self",
       "scope": ["variable.language.self.rust"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -1183,7 +1201,7 @@
       "name": "TypeScript - This",
       "scope": ["variable.language.this.ts", "variable.language.this.tsx"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -1234,14 +1252,14 @@
         "keyword.control.at-rule.less"
       ],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#8AA7B1"
       }
     },
     {
       "name": "CSS - Important",
       "scope": ["keyword.other.important.css"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#8AA7B1"
       }
     },
     {
@@ -1263,14 +1281,14 @@
         "support.type.custom-property.css"
       ],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#8AA7B1"
       }
     },
     {
       "name": "SCSS - Variable",
       "scope": ["variable.scss", "variable.less"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#8AA7B1"
       }
     },
     {
@@ -1281,7 +1299,7 @@
         "keyword.control.at-rule.extend.scss"
       ],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#8AA7B1"
       }
     },
     {
@@ -1427,7 +1445,7 @@
       "name": "YAML - Key",
       "scope": ["entity.name.tag.yaml"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -1481,7 +1499,7 @@
       "name": "TOML - Key",
       "scope": ["support.type.property-name.toml", "variable.other.key.toml"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -1514,7 +1532,7 @@
       "name": "XML - Tag name",
       "scope": ["entity.name.tag.xml", "entity.name.tag.localname.xml"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
@@ -1545,14 +1563,14 @@
       "name": "XML - Namespace prefix",
       "scope": ["entity.other.attribute-name.namespace.xml"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
       "name": "XML - DOCTYPE",
       "scope": ["meta.tag.sgml.doctype.xml", "entity.name.tag.doctype.xml"],
       "settings": {
-        "foreground": "#BE7878"
+        "foreground": "#A7B4C2"
       }
     },
     {
