@@ -128,7 +128,7 @@ Atlantico includes fine-tuned token rules for a wide range of languages:
 
 ```bash
 # Clone the repository
-git clone https://github.com/gvenancio/atlantico.git ~/.vscode/extensions/atlantico
+git clone https://github.com/gpvenancio/atlantico.git ~/.vscode/extensions/atlantico
 
 # Restart VS Code, then open:
 # File → Preferences → Color Theme → Atlantico
