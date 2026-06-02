@@ -2,7 +2,7 @@
 
 > A premium dark theme for Visual Studio Code — crafted for long coding sessions, reduced eye strain, and visual clarity across a wide range of languages.
 
-Created by [Gonçalo Venâncio](https://github.com/gpvenancio)
+Created by [Gonçalo Venâncio](https://venancio.dev)
 
 ---
 
