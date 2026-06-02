@@ -186,11 +186,5 @@ If Atlantico improves your daily coding experience, you can support the project 
 ---
 
 <div align="center">
-  <sub>Atlantico was crafted through a combination of human design decisions and AI-assisted iteration.</sub>
-</div>
-
----
-
-<div align="center">
   <sub>Designed for clarity, comfort, and long coding sessions.</sub>
 </div>
