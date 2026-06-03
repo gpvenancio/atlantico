@@ -171,9 +171,15 @@ Please include a before/after screenshot when changing token colours.
 
 ---
 
+## 🧭 Development Note
+
+Atlantico is a personal theme project designed, reviewed, published, and maintained by Gonçalo Venâncio. AI tools were used as part of the process, mainly for theme configuration, documentation, feedback, and development assistance. The visual direction, final design decisions, testing, publishing, and maintenance remain the author’s responsibility.
+
+---
+
 ## 📄 License
 
-MIT © [Gonçalo Venâncio](https://github.com/gpvenancio)
+MIT © [Gonçalo Venâncio](https://venancio.dev)
 
 ---
 
