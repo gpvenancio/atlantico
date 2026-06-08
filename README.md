@@ -118,14 +118,14 @@ The integrated terminal uses 16 ANSI colors tuned to match the editor. Normal co
 
 Atlantico includes custom token rules and visual tuning for a wide range of languages:
 
-| Category          | Languages                                               |
-| ----------------- | ------------------------------------------------------- |
-| **Web**           | JavaScript, TypeScript, JSX, TSX, HTML, CSS, SCSS, Less |
-| **Systems**       | Rust, C, C++, Go                                        |
-| **JVM**           | Java, Kotlin                                            |
-| **Scripting**     | Python, Ruby, PHP, Shell / Bash                         |
-| **Data & Config** | JSON, YAML, TOML, XML, GraphQL, SQL                     |
-| **Tooling**       | Dockerfile, Markdown, Git diff                          |
+| Category            | Languages                                               |
+| ------------------- | ------------------------------------------------------- |
+| **Web**             | JavaScript, TypeScript, JSX, TSX, HTML, CSS, SCSS, Less |
+| **Systems**         | Rust, C, C++, Go                                        |
+| **JVM**             | Java, Kotlin                                            |
+| **Scripting**       | Python, Ruby, PHP, Shell / Bash                         |
+| **Data & Config**   | JSON, YAML, TOML, XML, GraphQL, SQL                     |
+| **Tooling**         | Dockerfile, Markdown, Git diff                          |
 
 ---
 
@@ -176,21 +176,18 @@ Atlantico is currently available for Visual Studio Code.
 
 The long-term goal is to bring the same calm, low-noise experience to other editors, terminals, and development tools.
 
-**Available now**
+**Available now:**  
+Visual Studio Code  
 
-Visual Studio Code
-
-**Planned**
-
+**Planned:**  
 Open VSX Registry  
 Zed  
 JetBrains IDEs  
 Neovim  
 Windows Terminal  
-Obsidian
+Obsidian    
 
-**Under consideration**
-
+**Under consideration:**  
 Visual Studio  
 Sublime Text  
 Alacritty  
