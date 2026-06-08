@@ -8,6 +8,7 @@ Most dark themes are built for visual impact. Atlantico was built for endurance.
 
 Created by [Gonçalo Venâncio](https://venancio.dev)
 
+[Project page](https://venancio.dev/atlantico/)  
 [Install from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=gvenancio.atlantico)  
 [Support Atlantico](https://buymeacoffee.com/gvenancio)
 
