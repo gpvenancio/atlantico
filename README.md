@@ -1,57 +1,70 @@
 # 🌊 Atlantico
 
-> A premium dark theme for Visual Studio Code — crafted for long coding sessions, reduced eye strain, and visual clarity across a wide range of languages.
+> A calm dark theme for focused development.
+
+Atlantico is a Visual Studio Code theme built around soft contrast, clear syntax roles, and a coherent editor and terminal experience.
+
+Most dark themes are built for visual impact. Atlantico was built for endurance.
 
 Created by [Gonçalo Venâncio](https://venancio.dev)
 
----
-
-## 🌌 Features
-
-- Soft ocean-inspired palette
-- Reduced eye strain for long coding sessions
-- Unified editor + terminal ANSI colours
-- Carefully tuned semantic highlighting
-- Wide language support
-- Low-noise UI design
+[Install from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=gvenancio.atlantico)  
+[Support Atlantico](https://buymeacoffee.com/gvenancio)
 
 ---
 
 ## 📸 Screenshots
 
+<p align="center">
+  <img src="./screenshots/javascript.png" alt="Atlantico theme showing JavaScript syntax in Visual Studio Code" width="100%">
+</p>
+
+<p align="center">
+  <img src="./screenshots/terminal.png" alt="Atlantico theme showing the integrated terminal in Visual Studio Code" width="100%">
+</p>
+
 <table>
   <tr>
-    <td><img src="./screenshots/javascript.png" width="100%"></td>
-    <td><img src="./screenshots/typescript.png" width="100%"></td>
+    <td><img src="./screenshots/typescript.png" alt="Atlantico TypeScript screenshot" width="100%"></td>
+    <td><img src="./screenshots/python.png" alt="Atlantico Python screenshot" width="100%"></td>
   </tr>
   <tr>
-    <td><img src="./screenshots/python.png" width="100%"></td>
-    <td><img src="./screenshots/rust.png" width="100%"></td>
+    <td><img src="./screenshots/rust.png" alt="Atlantico Rust screenshot" width="100%"></td>
+    <td><img src="./screenshots/sql.png" alt="Atlantico SQL screenshot" width="100%"></td>
   </tr>
   <tr>
-    <td><img src="./screenshots/sql.png" width="100%"></td>
-    <td><img src="./screenshots/scss.png" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="./screenshots/html.png" width="100%"></td>
-    <td><img src="./screenshots/terminal.png" width="100%"></td>
+    <td><img src="./screenshots/scss.png" alt="Atlantico SCSS screenshot" width="100%"></td>
+    <td><img src="./screenshots/html.png" alt="Atlantico HTML screenshot" width="100%"></td>
   </tr>
 </table>
 
 ---
 
+## 🌌 Features
+
+Atlantico focuses on a calm and consistent coding environment.
+
+- Soft ocean-inspired palette
+- Comfortable contrast for long sessions
+- Unified editor and terminal ANSI colors
+- Carefully tuned semantic highlighting
+- Broad language support
+- Low-noise UI design
+
+---
+
 ## ✨ Why Atlantico?
 
-Most dark themes are built for visual impact. Atlantico was built for **endurance**.
+Atlantico was designed for developers who prefer a calmer coding environment, especially during long sessions.
 
-Designed for developers with **astigmatism, eye strain, or light sensitivity**, every colour decision in Atlantico was made to reduce fatigue without sacrificing readability. The palette avoids oversaturated neons and harsh whites in favour of soft, ocean-inspired tones that your eyes can rest on for hours.
+The palette avoids harsh whites, intense neon tones, and strong UI distractions. Instead, it uses soft contrast, muted surfaces, and consistent syntax colors to keep code readable without making the editor feel visually aggressive.
 
-- **Low visual noise** — muted backgrounds, subtle UI chrome, nothing competing for attention
-- **Calibrated contrast** — readable without being aggressive
-- **Semantic colour logic** — consistent token roles across all languages, so your brain learns the pattern once
-- **Unified experience** — editor and integrated terminal share the same palette, keeping the environment visually coherent
+Atlantico is built around a few core principles:
 
-Whether you code for 2 hours or 10, Atlantico is designed to stay comfortable.
+- **Visual calm**, the interface should not compete with the code
+- **Readable contrast**, text should stay clear without becoming harsh
+- **Semantic consistency**, similar token roles should feel familiar across languages
+- **Unified experience**, the editor and integrated terminal should feel like one environment
 
 ---
 
@@ -86,24 +99,24 @@ Whether you code for 2 hours or 10, Atlantico is designed to stay comfortable.
 
 ### Terminal
 
-The integrated terminal uses a full ANSI 16-colour palette tuned to match the editor — muted, warm tones for normal colours and slightly brighter variants for the bold/bright layer.
+The integrated terminal uses 16 ANSI colors tuned to match the editor. Normal colors stay muted and warm, while bright variants provide extra clarity when needed.
 
-| ANSI    | Normal                                                      | Hex | Bright                                                      | Hex |
-| ------- | ----------------------------------------------------------- | --- | ----------------------------------------------------------- | --- |
-| Black   | ![](https://placehold.co/14x14/2A2D37/2A2D37.png) `#2A2D37` |     | ![](https://placehold.co/14x14/5B6273/5B6273.png) `#5B6273` |
-| Red     | ![](https://placehold.co/14x14/BE7878/BE7878.png) `#BE7878` |     | ![](https://placehold.co/14x14/C77D7D/C77D7D.png) `#C77D7D` |
-| Green   | ![](https://placehold.co/14x14/769986/769986.png) `#769986` |     | ![](https://placehold.co/14x14/86A995/86A995.png) `#86A995` |
-| Yellow  | ![](https://placehold.co/14x14/A98D63/A98D63.png) `#A98D63` |     | ![](https://placehold.co/14x14/B89B6A/B89B6A.png) `#B89B6A` |
-| Blue    | ![](https://placehold.co/14x14/729BB3/729BB3.png) `#729BB3` |     | ![](https://placehold.co/14x14/84A9BF/84A9BF.png) `#84A9BF` |
-| Magenta | ![](https://placehold.co/14x14/9A84C7/9A84C7.png) `#9A84C7` |     | ![](https://placehold.co/14x14/A695D6/A695D6.png) `#A695D6` |
-| Cyan    | ![](https://placehold.co/14x14/7AA2B8/7AA2B8.png) `#7AA2B8` |     | ![](https://placehold.co/14x14/8EB8C7/8EB8C7.png) `#8EB8C7` |
-| White   | ![](https://placehold.co/14x14/CDD6E3/CDD6E3.png) `#CDD6E3` |     | ![](https://placehold.co/14x14/E6EDF7/E6EDF7.png) `#E6EDF7` |
+| ANSI    | Normal                                                      | Bright                                                      |
+| ------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+| Black   | ![](https://placehold.co/14x14/2A2D37/2A2D37.png) `#2A2D37` | ![](https://placehold.co/14x14/5B6273/5B6273.png) `#5B6273` |
+| Red     | ![](https://placehold.co/14x14/BE7878/BE7878.png) `#BE7878` | ![](https://placehold.co/14x14/C77D7D/C77D7D.png) `#C77D7D` |
+| Green   | ![](https://placehold.co/14x14/769986/769986.png) `#769986` | ![](https://placehold.co/14x14/86A995/86A995.png) `#86A995` |
+| Yellow  | ![](https://placehold.co/14x14/A98D63/A98D63.png) `#A98D63` | ![](https://placehold.co/14x14/B89B6A/B89B6A.png) `#B89B6A` |
+| Blue    | ![](https://placehold.co/14x14/729BB3/729BB3.png) `#729BB3` | ![](https://placehold.co/14x14/84A9BF/84A9BF.png) `#84A9BF` |
+| Magenta | ![](https://placehold.co/14x14/9A84C7/9A84C7.png) `#9A84C7` | ![](https://placehold.co/14x14/A695D6/A695D6.png) `#A695D6` |
+| Cyan    | ![](https://placehold.co/14x14/7AA2B8/7AA2B8.png) `#7AA2B8` | ![](https://placehold.co/14x14/8EB8C7/8EB8C7.png) `#8EB8C7` |
+| White   | ![](https://placehold.co/14x14/CDD6E3/CDD6E3.png) `#CDD6E3` | ![](https://placehold.co/14x14/E6EDF7/E6EDF7.png) `#E6EDF7` |
 
 ---
 
 ## 🌐 Supported Languages
 
-Atlantico includes fine-tuned token rules for a wide range of languages:
+Atlantico includes custom token rules and visual tuning for a wide range of languages:
 
 | Category          | Languages                                               |
 | ----------------- | ------------------------------------------------------- |
@@ -118,29 +131,28 @@ Atlantico includes fine-tuned token rules for a wide range of languages:
 
 ## 📦 Installation
 
-### Via VS Code Marketplace
+### VS Code Marketplace
 
-1. Open VS Code
-2. Go to **Extensions** (`Ctrl+Shift+X`)
+1. Open Visual Studio Code
+2. Open the Extensions view with `Ctrl+Shift+X`
 3. Search for **Atlantico**
 4. Click **Install**
-5. Open **File → Preferences → Color Theme** and select **Atlantico**
+5. Open **File → Preferences → Theme → Color Theme**
+6. Select **Atlantico**
 
 ### Manual Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/gpvenancio/atlantico.git ~/.vscode/extensions/atlantico
-
-# Restart VS Code, then open:
-# File → Preferences → Color Theme → Atlantico
 ```
+
+Restart Visual Studio Code, then open **File → Preferences → Theme → Color Theme** and select **Atlantico**.
 
 ---
 
 ## 💡 Recommended Settings
 
-For the best experience alongside Atlantico:
+For the best experience with Atlantico:
 
 ```json
 {
@@ -154,26 +166,55 @@ For the best experience alongside Atlantico:
 }
 ```
 
-A monospace font with ligatures pairs especially well with Atlantico's balanced operator and low-noise structural punctuation styling.
+A monospace font with ligatures pairs well with Atlantico's balanced operator colors and low-noise punctuation styling.
+
+---
+
+## 🧭 Roadmap
+
+Atlantico is currently available for Visual Studio Code.
+
+The long-term goal is to bring the same calm, low-noise experience to other editors, terminals, and development tools.
+
+**Available now**
+
+Visual Studio Code
+
+**Planned**
+
+Open VSX Registry  
+Zed  
+JetBrains IDEs  
+Neovim  
+Windows Terminal  
+Obsidian
+
+**Under consideration**
+
+Visual Studio  
+Sublime Text  
+Alacritty  
+Ghostty  
+Firefox  
+Chrome
 
 ---
 
 ## 🤝 Contributing
 
-If you find a language or edge case where the highlighting feels off, contributions are welcome.
+Feedback and contributions are welcome.
 
-1. Fork the repository
-2. Create a branch: `git checkout -b fix/python-decorator`
-3. Make your changes and commit: `git commit -m 'fix: improve Python decorator contrast'`
-4. Push and open a Pull Request
+If you find a language, token, or UI element where the highlighting feels inconsistent, feel free to open an issue or submit a pull request.
 
-Please include a before/after screenshot when changing token colours.
+When changing token colors, please include a before-and-after screenshot whenever possible.
 
 ---
 
-## 🧭 Development Note
+## 🛠️ Development Note
 
-Atlantico is a personal theme project designed, reviewed, published, and maintained by Gonçalo Venâncio. AI tools were used as part of the process, mainly for theme configuration, documentation, feedback, and development assistance. The visual direction, final design decisions, testing, publishing, and maintenance remain the author’s responsibility.
+Atlantico is a personal theme project designed, reviewed, published, and maintained by Gonçalo Venâncio.
+
+AI tools were used during parts of the process, mainly for theme configuration, documentation, feedback, and development assistance. The visual direction, final design decisions, testing, publishing, and maintenance remain the author’s responsibility.
 
 ---
 
@@ -192,5 +233,5 @@ If Atlantico improves your daily coding experience, you can support the project 
 ---
 
 <div align="center">
-  <sub>Designed for clarity, comfort, and long coding sessions.</sub>
+  <sub>A calm theme for focused development.</sub>
 </div>
