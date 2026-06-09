@@ -1,6 +1,6 @@
 # 🌊 Atlantico
 
-> A calm dark theme for focused development.
+> A calm theme for Visual Studio Code and compatible editors, built for focused development.
 
 Atlantico is a Visual Studio Code theme built around soft contrast, clear syntax roles, and a coherent editor and terminal experience.
 
@@ -10,6 +10,7 @@ Created by [Gonçalo Venâncio](https://venancio.dev)
 
 [Project page](https://venancio.dev/atlantico/)  
 [Install from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=gvenancio.atlantico)  
+[Install from Open VSX Registry](https://open-vsx.org/extension/gvenancio/atlantico)  
 [Support Atlantico](https://buymeacoffee.com/gvenancio)
 
 ---
@@ -119,20 +120,20 @@ The integrated terminal uses 16 ANSI colors tuned to match the editor. Normal co
 
 Atlantico includes custom token rules and visual tuning for a wide range of languages:
 
-| Category            | Languages                                               |
-| ------------------- | ------------------------------------------------------- |
-| **Web**             | JavaScript, TypeScript, JSX, TSX, HTML, CSS, SCSS, Less |
-| **Systems**         | Rust, C, C++, Go                                        |
-| **JVM**             | Java, Kotlin                                            |
-| **Scripting**       | Python, Ruby, PHP, Shell / Bash                         |
-| **Data & Config**   | JSON, YAML, TOML, XML, GraphQL, SQL                     |
-| **Tooling**         | Dockerfile, Markdown, Git diff                          |
+| Category          | Languages                                               |
+| ----------------- | ------------------------------------------------------- |
+| **Web**           | JavaScript, TypeScript, JSX, TSX, HTML, CSS, SCSS, Less |
+| **Systems**       | Rust, C, C++, Go                                        |
+| **JVM**           | Java, Kotlin                                            |
+| **Scripting**     | Python, Ruby, PHP, Shell / Bash                         |
+| **Data & Config** | JSON, YAML, TOML, XML, GraphQL, SQL                     |
+| **Tooling**       | Dockerfile, Markdown, Git diff                          |
 
 ---
 
 ## 📦 Installation
 
-### VS Code Marketplace
+### Visual Studio Marketplace
 
 1. Open Visual Studio Code
 2. Open the Extensions view with `Ctrl+Shift+X`
@@ -140,6 +141,12 @@ Atlantico includes custom token rules and visual tuning for a wide range of lang
 4. Click **Install**
 5. Open **File → Preferences → Theme → Color Theme**
 6. Select **Atlantico**
+
+### Open VSX Registry
+
+Atlantico is also available on the Open VSX Registry for compatible editors.
+
+[Install from Open VSX Registry](https://open-vsx.org/extension/gvenancio/atlantico)
 
 ### Manual Installation
 
@@ -173,20 +180,20 @@ A monospace font with ligatures pairs well with Atlantico's balanced operator co
 
 ## 🧭 Roadmap
 
-Atlantico is currently available for Visual Studio Code.
+Atlantico is currently available through the Visual Studio Marketplace and the Open VSX Registry.
 
 The long-term goal is to bring the same calm, low-noise experience to other editors, terminals, and development tools.
 
 **Available now:**  
-Visual Studio Code  
+Visual Studio Marketplace  
+Open VSX Registry
 
 **Planned:**  
-Open VSX Registry  
 Zed  
 JetBrains IDEs  
 Neovim  
 Windows Terminal  
-Obsidian    
+Obsidian
 
 **Under consideration:**  
 Visual Studio  
@@ -231,5 +238,5 @@ If Atlantico improves your daily coding experience, you can support the project 
 ---
 
 <div align="center">
-  <sub>A calm theme for focused development.</sub>
+  <sub>A calm theme for Visual Studio Code and compatible editors, built for focused development.</sub>
 </div>
