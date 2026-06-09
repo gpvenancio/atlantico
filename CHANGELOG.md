@@ -6,13 +6,19 @@ This project follows the spirit of [Keep a Changelog](https://keepachangelog.com
 
 ## [Unreleased]
 
+## [1.1.9]
+
+### Changed
+
+- Added Open VSX Registry installation information.
+- Updated README positioning for Visual Studio Code and compatible editors.
+- Added Open VSX links to the project documentation.
+
 ## [1.1.8]
 
 ### Changed
 
 - Updated the extension description to reflect availability for Visual Studio Code and compatible editors.
-- Added Open VSX Registry installation information.
-- Updated README positioning and links for Open VSX availability.
 
 ## [1.1.7]
 
