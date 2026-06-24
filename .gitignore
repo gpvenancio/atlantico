@@ -1,3 +1,49 @@
-node_modules
-*.vsix
+# Dependencies
+node_modules/
+
+# Environment variables
 .env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+public/build/
+*.vsix
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.nyc_output/
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Editor directories
+.vscode/
+.idea/
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
